@@ -8,6 +8,7 @@
         Date:		Done:
         07/06/2022	Sample code created (variables and constants)
 */
+// This is a comment
 using System;
 
 namespace FirstIdentifiers
