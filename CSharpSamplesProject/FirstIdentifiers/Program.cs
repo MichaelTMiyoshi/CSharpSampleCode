@@ -24,6 +24,7 @@ namespace FirstIdentifiers
             Console.WriteLine("Hello World!");  // output to the screen
             int someVariable = 0;
             const double someConstant = 10.0;
+            const double c = 3e8;
             char someChar = 'q';
             string someString = "Goodbye...";
             bool someBool = true;
@@ -32,14 +33,16 @@ namespace FirstIdentifiers
             Console.WriteLine("someChar = " + someChar);
             Console.WriteLine("someString = " + someString);
             Console.WriteLine(String.Format("someConstant (3 decimal places) = {0:0.000}", someConstant));
+            Console.WriteLine(String.Format("c (scientific notation) = {0:#.##e+00}", c));
 
             // some additional code
             someVariable = 14;
-            someConstant = 15;  // this will cause an error
+            //someConstant = 15;  // this will cause an error
             someChar = 'x';
             someString = "for now.";
             Console.WriteLine("someVariable = " + someVariable);
-            Console.WriteLine(String.Format("someConstant = {0:0.000}", someConstant));
+            Console.WriteLine("someConstant = " + someConstant);
+            Console.WriteLine(String.Format("c = {0:#.00e+0}", c));
             Console.WriteLine("someChar = " + someChar);
             Console.WriteLine("someString = " + someString);
             Console.WriteLine("someBool = " + someBool);
