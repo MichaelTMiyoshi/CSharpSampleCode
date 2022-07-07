@@ -14,7 +14,7 @@ using System;
 
 namespace SimpleStringExample
 {
-    internal class Program
+    internal class stringExample
     {
         static void Main(string[] args)
         {

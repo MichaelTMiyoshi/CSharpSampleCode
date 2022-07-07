@@ -17,7 +17,7 @@ using System;
 
 namespace FirstIdentifiers
 {
-    internal class Program
+    internal class Identifiers
     {
         static void Main(string[] args)
         {
