@@ -20,7 +20,12 @@ namespace FirstIdentifiers
             Console.WriteLine("Hello World!");  // output to the screen
             int someVariable = 0;
             const double someConstant = 10.0;
-            int someChar = 'q';
+            char someChar = 'q';
+            string someString = "Woo hoo!";
+            Console.WriteLine("someVariable = " + someVariable);
+            Console.WriteLine("someConstant = " + someConstant);
+            Console.WriteLine("someChar = " + someChar);
+            Console.WriteLine("someString = " + someString);
         }
     }
 }
