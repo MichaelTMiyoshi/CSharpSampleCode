@@ -7,13 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpSamplesProject", "CSh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstIdentifiers", "FirstIdentifiers\FirstIdentifiers.csproj", "{E78B15E2-BEBA-4C09-9B27-7C7B9A48643A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStringExample", "SimpleStringExample\SimpleStringExample.csproj", "{CBE3438F-3456-4862-850C-FCFB3401FA59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleStringExample", "SimpleStringExample\SimpleStringExample.csproj", "{CBE3438F-3456-4862-850C-FCFB3401FA59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACoupleOperators", "ACoupleOperators\ACoupleOperators.csproj", "{246600B5-F424-4482-BC5E-C5E9C11120A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACoupleOperators", "ACoupleOperators\ACoupleOperators.csproj", "{246600B5-F424-4482-BC5E-C5E9C11120A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperators", "MathOperators\MathOperators.csproj", "{FFF14C90-BA12-4C79-A7AB-9A389DA19D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperators", "MathOperators\MathOperators.csproj", "{FFF14C90-BA12-4C79-A7AB-9A389DA19D60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConcatenation", "StringConcatenation\StringConcatenation.csproj", "{B1FFC914-4131-4CBB-B3E7-D05BB2D63AE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringConcatenation", "StringConcatenation\StringConcatenation.csproj", "{B1FFC914-4131-4CBB-B3E7-D05BB2D63AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbers", "RandomNumbers\RandomNumbers.csproj", "{951DA34D-3743-4D8C-9729-002F7996ACB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomCharacters", "RandomCharacters\RandomCharacters.csproj", "{1B291FFC-E8C4-4152-9C53-62DBE71EB671}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{B1FFC914-4131-4CBB-B3E7-D05BB2D63AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1FFC914-4131-4CBB-B3E7-D05BB2D63AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1FFC914-4131-4CBB-B3E7-D05BB2D63AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951DA34D-3743-4D8C-9729-002F7996ACB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951DA34D-3743-4D8C-9729-002F7996ACB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951DA34D-3743-4D8C-9729-002F7996ACB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951DA34D-3743-4D8C-9729-002F7996ACB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B291FFC-E8C4-4152-9C53-62DBE71EB671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B291FFC-E8C4-4152-9C53-62DBE71EB671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B291FFC-E8C4-4152-9C53-62DBE71EB671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B291FFC-E8C4-4152-9C53-62DBE71EB671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
