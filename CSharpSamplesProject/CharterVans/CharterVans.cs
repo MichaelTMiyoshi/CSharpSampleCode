@@ -39,9 +39,13 @@ namespace CharterVans
             const int vanCapacity = 7;
             vans = people / vanCapacity;
             int peopleWalking = people % vanCapacity;
+            if(peopleWalking != 0)
+            {
+                vans++;
+            }
 
             Console.WriteLine("You will need to charter " + vans + " vans.");
-            Console.WriteLine("And " + peopleWalking + " will walk.");
+            //Console.WriteLine("And " + peopleWalking + " will walk.");
         }
     }
 }
