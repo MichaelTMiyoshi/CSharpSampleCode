@@ -32,7 +32,7 @@ namespace UserInterface
                 Console.WriteLine("[" + row + ", " + col + "]");
             }
 
-            Console.WriteLine((char)191 + "" + (char)177);
+            Console.WriteLine((char)200 + "" + (char)177);
             Console.SetCursorPosition(Console.WindowLeft, Console.WindowTop + Console.WindowHeight - 6);
         }
     }
