@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomCharacters", "RandomC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInterface", "UserInterface\UserInterface.csproj", "{F2789B26-51AB-4D79-ACF9-74EA72881F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInput", "UserInput\UserInput.csproj", "{BDD8E33A-F3F1-41AD-A413-F5C47E5FEE3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInput", "UserInput\UserInput.csproj", "{BDD8E33A-F3F1-41AD-A413-F5C47E5FEE3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharterVans", "CharterVans\CharterVans.csproj", "{926D82C3-7354-403B-AFED-2CB8B59A5E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharterVans", "CharterVans\CharterVans.csproj", "{926D82C3-7354-403B-AFED-2CB8B59A5E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatingPointEquality", "FloatingPointEquality\FloatingPointEquality.csproj", "{8759856F-9E71-4394-B71E-AADF8F79566C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FloatingPointEquality", "FloatingPointEquality\FloatingPointEquality.csproj", "{8759856F-9E71-4394-B71E-AADF8F79566C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMenu", "SimpleMenu\SimpleMenu.csproj", "{8FAAED9F-917D-4E88-B96B-FF1365AA8449}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMenu", "SimpleMenu\SimpleMenu.csproj", "{8FAAED9F-917D-4E88-B96B-FF1365AA8449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Looping", "Looping\Looping.csproj", "{F3AFBDC2-218A-4F62-B838-C47D82FA8FA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{8FAAED9F-917D-4E88-B96B-FF1365AA8449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FAAED9F-917D-4E88-B96B-FF1365AA8449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FAAED9F-917D-4E88-B96B-FF1365AA8449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AFBDC2-218A-4F62-B838-C47D82FA8FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AFBDC2-218A-4F62-B838-C47D82FA8FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AFBDC2-218A-4F62-B838-C47D82FA8FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AFBDC2-218A-4F62-B838-C47D82FA8FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

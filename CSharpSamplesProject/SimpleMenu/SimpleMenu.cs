@@ -41,6 +41,7 @@ namespace SimpleMenu
             Console.WriteLine("\t1) choice 1");
             Console.WriteLine("\t2) choice 2");
             Console.WriteLine("\t3) choice 3");
+            Console.WriteLine("\t11) Exit");
             Console.Write("Your choice: ");
             choice = Convert.ToInt32(Console.ReadLine());
 
@@ -59,6 +60,9 @@ namespace SimpleMenu
                 case 3:
                 Console.WriteLine("Menu item 3");
                     // do other stuff here
+                    break;
+                case 11:
+                    Console.WriteLine("Thank you.  Come again.");
                     break;
                 default:
                 Console.WriteLine("That is not a choice on the menu");
@@ -81,7 +85,7 @@ namespace SimpleMenu
             switch (ch)
             {
                 case '1':
-                    Console.WriteLine("&Menu item 1");
+                    Console.WriteLine("Menu item 1");
                     // do other stuff here
                     break;
 
