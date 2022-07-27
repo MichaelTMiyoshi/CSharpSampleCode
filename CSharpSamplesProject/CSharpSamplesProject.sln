@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMenu", "SimpleMenu\Si
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Looping", "Looping\Looping.csproj", "{F3AFBDC2-218A-4F62-B838-C47D82FA8FA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringComparisons", "StringComparisons\StringComparisons.csproj", "{CECC22BC-8B51-40DA-8D16-D9A7197A6BCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringComparisons", "StringComparisons\StringComparisons.csproj", "{CECC22BC-8B51-40DA-8D16-D9A7197A6BCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions", "Functions\Functions.csproj", "{CE1E3024-58B5-47B7-A957-94D3A46DF740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotEatingNewlines", "NotEatingNewlines\NotEatingNewlines.csproj", "{18748DFA-8EFE-4893-A30F-30D202AB9312}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{CECC22BC-8B51-40DA-8D16-D9A7197A6BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CECC22BC-8B51-40DA-8D16-D9A7197A6BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CECC22BC-8B51-40DA-8D16-D9A7197A6BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1E3024-58B5-47B7-A957-94D3A46DF740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1E3024-58B5-47B7-A957-94D3A46DF740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1E3024-58B5-47B7-A957-94D3A46DF740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1E3024-58B5-47B7-A957-94D3A46DF740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18748DFA-8EFE-4893-A30F-30D202AB9312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18748DFA-8EFE-4893-A30F-30D202AB9312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18748DFA-8EFE-4893-A30F-30D202AB9312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18748DFA-8EFE-4893-A30F-30D202AB9312}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
