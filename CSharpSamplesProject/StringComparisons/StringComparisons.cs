@@ -8,13 +8,16 @@ namespace StringComparisons
         {
             Console.WriteLine("string Comparisons");
 
-            string s1 = "Alpha";
-            string s2 = "alpha";
-            string s3 = "omega";
+            String s1 = "Alpha";
+            String s2 = "alpha";
+            String s3 = "omega";
 
             Console.WriteLine("s1: " + s1);
             Console.WriteLine("s2: " + s2);
             Console.WriteLine("s3: " + s3);
+            
+            int answer = String.Compare(s1, s2, StringComparison.OrdinalIgnoreCase);
+            Console.WriteLine(answer);
 
             if (s1.Equals(s2))
             {
@@ -29,6 +32,9 @@ namespace StringComparisons
                 Console.WriteLine("The strings " + s1 + " and " + s2 + " are not equal.");
             }
 
+            answer = String.Compare(s1, s3, StringComparison.OrdinalIgnoreCase);
+            Console.WriteLine(answer);
+            
             if(0 < String.Compare(s1, s3, StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine(s3 + " goes before " + s1 + " alphabetically.");
