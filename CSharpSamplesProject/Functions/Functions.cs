@@ -6,7 +6,15 @@ namespace Functions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Functions");
+            Instructions(); // function call
+        }
+
+        // function definition
+        static void Instructions()
+        {
+            Console.WriteLine("This is my first C# function.");
+            return;
         }
     }
 }

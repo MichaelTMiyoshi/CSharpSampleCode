@@ -37,7 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions", "Functions\Func
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotEatingNewlines", "NotEatingNewlines\NotEatingNewlines.csproj", "{18748DFA-8EFE-4893-A30F-30D202AB9312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExample", "StringBuilderExample\StringBuilderExample.csproj", "{000B5156-394F-496C-9C98-68F823B817CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderExample", "StringBuilderExample\StringBuilderExample.csproj", "{000B5156-394F-496C-9C98-68F823B817CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionMazeSimple", "FunctionMazeSimple\FunctionMazeSimple.csproj", "{D35499F3-D8B8-41BF-8681-76D2B85FE051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionMazeSimpleReboot", "FunctionMazeSimpleReboot\FunctionMazeSimpleReboot.csproj", "{119A0190-CC69-41AA-8BC4-4BFA388E0499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSineCosine", "SimpleSineCosine\SimpleSineCosine.csproj", "{5FB98554-9485-42A4-815D-E2D258B67704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsSimplePassData", "FunctionsSimplePassData\FunctionsSimplePassData.csproj", "{A7A202D2-177A-4E39-B29D-93A0474DB5A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +125,22 @@ Global
 		{000B5156-394F-496C-9C98-68F823B817CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{000B5156-394F-496C-9C98-68F823B817CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{000B5156-394F-496C-9C98-68F823B817CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35499F3-D8B8-41BF-8681-76D2B85FE051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35499F3-D8B8-41BF-8681-76D2B85FE051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35499F3-D8B8-41BF-8681-76D2B85FE051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35499F3-D8B8-41BF-8681-76D2B85FE051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119A0190-CC69-41AA-8BC4-4BFA388E0499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119A0190-CC69-41AA-8BC4-4BFA388E0499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119A0190-CC69-41AA-8BC4-4BFA388E0499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119A0190-CC69-41AA-8BC4-4BFA388E0499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB98554-9485-42A4-815D-E2D258B67704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB98554-9485-42A4-815D-E2D258B67704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB98554-9485-42A4-815D-E2D258B67704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB98554-9485-42A4-815D-E2D258B67704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A202D2-177A-4E39-B29D-93A0474DB5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A202D2-177A-4E39-B29D-93A0474DB5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A202D2-177A-4E39-B29D-93A0474DB5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A202D2-177A-4E39-B29D-93A0474DB5A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -24,7 +24,7 @@ namespace FirstIdentifiers
             Console.WriteLine("Hello World!");  // output to the screen
             int someVariable = 0;
             const double someConstant = 10.0;
-            const double c = 3e8;
+            const double c = 300_000_000; //3e8;
             char someChar = 'q';
             string someString = "Goodbye...";
             bool someBool = true;
@@ -34,6 +34,8 @@ namespace FirstIdentifiers
             Console.WriteLine("someString = " + someString);
             Console.WriteLine(String.Format("someConstant (3 decimal places) = {0:0.000}", someConstant));
             Console.WriteLine(String.Format("c (scientific notation) = {0:#.##e+00}", c));
+            Console.WriteLine("someConstant (3 decimal places) = {0:0.000}", someConstant);
+            Console.WriteLine("c (scientific notation) = {0:#.##e+00}", c);
 
             // some additional code
             someVariable = 14;
@@ -43,6 +45,7 @@ namespace FirstIdentifiers
             Console.WriteLine("someVariable = " + someVariable);
             Console.WriteLine("someConstant = " + someConstant);
             Console.WriteLine(String.Format("c = {0:#.00e+0}", c));
+            Console.WriteLine("c = {0:#.00e+0}", c);
             Console.WriteLine("someChar = " + someChar);
             Console.WriteLine("someString = " + someString);
             Console.WriteLine("someBool = " + someBool);
