@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionsSimplePassData", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionsOverloading", "FunctionsOverloading\FunctionsOverloading.csproj", "{30F5EF90-2534-45BF-95F9-8F58C1006DE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumExample", "EnumExample\EnumExample.csproj", "{BF0B70C7-6DD7-4589-9943-621A06E7C4B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumExample", "EnumExample\EnumExample.csproj", "{BF0B70C7-6DD7-4589-9943-621A06E7C4B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumConcessionStand", "EnumConsessionStand\EnumConcessionStand.csproj", "{CF3300CF-BF9D-41BD-982B-259B2856723D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumConcessionStand", "EnumConsessionStand\EnumConcessionStand.csproj", "{CF3300CF-BF9D-41BD-982B-259B2856723D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeTester", "ShapeTester\ShapeTester.csproj", "{EADFE024-C7D9-4A4A-9A07-4708B95220A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{CF3300CF-BF9D-41BD-982B-259B2856723D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF3300CF-BF9D-41BD-982B-259B2856723D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF3300CF-BF9D-41BD-982B-259B2856723D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADFE024-C7D9-4A4A-9A07-4708B95220A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADFE024-C7D9-4A4A-9A07-4708B95220A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADFE024-C7D9-4A4A-9A07-4708B95220A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADFE024-C7D9-4A4A-9A07-4708B95220A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
