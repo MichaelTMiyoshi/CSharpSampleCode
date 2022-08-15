@@ -19,6 +19,17 @@ namespace EnumExample
             Console.WriteLine(memory + " = " + (int)memory);
             Amounts amount = Amounts.Gross;
             Console.WriteLine(amount + " = " + (int)amount);
+            Console.WriteLine();
+
+            Fn(month, day); // Works as it should
+            //Fn(day, month); // compiler error because of order of arguments
+            Fn(Months.April, Days.Tuesday); // Works as it should
+            //Fn(4, 2);       // compiler error because arguments are integers
+            Fn((Months)5, (Days)6); // Works as it should - casting
+        }
+        static void Fn(Months m, Days d)
+        {
+            Console.WriteLine(m + " " + d);
         }
     }
 }
