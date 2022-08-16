@@ -10,6 +10,11 @@ namespace ShapeTester
     {
         // private instance variable (no get or set)
         private double radius;
+        public double Radius
+        {
+            get { return radius; }
+            set { radius = value; }
+        }
 
         public Circle()
         {
@@ -24,16 +29,6 @@ namespace ShapeTester
         public Circle(Circle C)
         {
             radius = C.radius;
-        }
-
-        public void SetRadius(double r)
-        {
-            radius = r;
-        }
-
-        public double GetRadius()
-        {
-            return radius;
         }
 
         public double Circumference()
