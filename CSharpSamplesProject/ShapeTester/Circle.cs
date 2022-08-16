@@ -8,7 +8,7 @@ namespace ShapeTester
 {
     public class Circle
     {
-        private double radius;
+        public double radius { get; set; }
 
         public Circle()
         {
@@ -23,16 +23,6 @@ namespace ShapeTester
         public Circle(Circle C)
         {
             radius = C.radius;
-        }
-
-        public void setRadius(double r)
-        {
-            radius = r;
-        }
-
-        public double getRadius()
-        {
-            return radius;
         }
 
         public double Circumference()
