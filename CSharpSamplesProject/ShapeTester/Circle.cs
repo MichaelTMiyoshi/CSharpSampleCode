@@ -8,6 +8,7 @@ namespace ShapeTester
 {
     public class Circle
     {
+        // private instance variable (no get or set)
         private double radius;
 
         public Circle()
@@ -25,12 +26,12 @@ namespace ShapeTester
             radius = C.radius;
         }
 
-        public void setRadius(double r)
+        public void SetRadius(double r)
         {
             radius = r;
         }
 
-        public double getRadius()
+        public double GetRadius()
         {
             return radius;
         }
