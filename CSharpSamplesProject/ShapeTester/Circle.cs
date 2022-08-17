@@ -8,36 +8,36 @@ namespace ShapeTester
 {
     public class Circle
     {
-        public double radius { get; set; }
+        public double Radius { get; set; }
 
-        public Circle()
+        public Circle() // default constructor
         {
-            radius = 0;
+            Radius = 0;
         }
 
-        public Circle(double radius)
+        public Circle(double Radius)    // constructor with argument(s)
         {
-            this.radius = radius;
+            this.Radius = Radius;
         }
 
-        public Circle(Circle C)
+        public Circle(Circle C) // copy constructor
         {
-            radius = C.radius;
+            Radius = C.Radius;
         }
 
         public double Circumference()
         {
-            return Math.PI * radius * 2.0;
+            return Math.PI * Radius * 2.0;
         }
 
         public double Area()
         {
-            return Math.PI * radius * radius;
+            return Math.PI * Radius * Radius;
         }
 
         public override String ToString()
         {
-            String output = String.Format("Radius:    {0, 8:0.000}\n", radius);
+            String output = String.Format("Radius:    {0, 8:0.000}\n", Radius);
             output += String.Format("Perimeter: {0, 8:0.000}\n", Circumference());
             output += String.Format("Area:      {0, 8:0.000}\n", this.Area());
             return output;
