@@ -16,6 +16,8 @@ namespace ShapeTester
             Circle c2 = new Circle(15.0);
             Console.WriteLine(c2);
             //Square s = new Square();
+            //Hexagon h = new Hexagon();
+            //Octogon oct = new Octogon();
         }
     }
 }
