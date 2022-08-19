@@ -21,7 +21,6 @@ namespace ListExample
             Console.WriteLine(scores);
             List<double> doubles = new List<double>();
             List<bool> TFAnswers = new List<bool>();
-            List<Circle> circles = new List<Circle>();
 
             List<int> nums = new List<int> {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
             foreach (int i in nums)
@@ -55,6 +54,10 @@ namespace ListExample
             OutputList(intList);
             Console.WriteLine();
 
+            Console.WriteLine("FindIt");
+            Console.WriteLine(FindIt(intList, 101));
+            Console.WriteLine(FindIt(intList, 0));
+
             Console.WriteLine("double List");
             List<double> doubleList = new List<double>();
             for(int i = 0; i < intList.Count; i++)
@@ -63,6 +66,28 @@ namespace ListExample
             }
 
             OutputList(doubleList);
+
+            Console.WriteLine("\n\nCircles");
+            List<Circle> circles = new List<Circle>();
+
+            circles.Add(new Circle(10.0));
+            circles.Add(new Circle(5.0));
+            circles.Add(new Circle());
+
+            Console.WriteLine(circles[0].Circumference());
+
+            int[] Scores = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+            double[] Health = { 10.5, 9.6, 8.7, 7.6, 6.5 };
+            bool[] BeenThere = new bool[25];
+            Circle[] Circles = new Circle[3];
+
+            for(int i = 0; i < 25; i++)
+            {
+                BeenThere[i] = false;
+            }
+            Circles[0] = new Circle(10.0);
+            Circles[1] = new Circle(5.0);
+            Circles[2] = new Circle();
         }
 
         static void OutputList(List<int> list)
@@ -94,6 +119,21 @@ namespace ListExample
                     counter = 0;
                 }
             }
+        }
+
+        static int FindIt(List<int> list, int it)
+        {
+            int index = -1;
+
+            for(int i = 0; i < list.Count; i++)
+            {
+                if (list[i] == it)
+                {
+                    index = i;
+                    break;
+                }
+            }
+            return index;
         }
     }
 }

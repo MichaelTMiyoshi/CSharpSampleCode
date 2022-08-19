@@ -1,10 +1,12 @@
-﻿namespace ListStringExample
+﻿using System;
+using System.Collections.Generic;
+namespace ListStringExample
 {
     internal class ListStringExample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("List of Strings");
+            Console.WriteLine("List of Strings and 2D List");
             List<String> fortunes = new List<String> { "You will have a great day",
                 "You are amazing!", 
                 "What is the any key?" };
