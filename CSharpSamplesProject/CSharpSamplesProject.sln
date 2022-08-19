@@ -61,6 +61,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListStringExample", "ListSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReadingExample", "FileReadingExample\FileReadingExample.csproj", "{48750706-D35D-4F10-B6F6-85E61200D0E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReadingDelimited", "FileReadingDelimited\FileReadingDelimited.csproj", "{1F66CA0E-06B8-4FD0-8109-FE1CD620BD48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscellaneousStuff", "MiscellaneousStuff\MiscellaneousStuff.csproj", "{359396EF-104E-4658-9767-38B0F4F45671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{48750706-D35D-4F10-B6F6-85E61200D0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48750706-D35D-4F10-B6F6-85E61200D0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48750706-D35D-4F10-B6F6-85E61200D0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F66CA0E-06B8-4FD0-8109-FE1CD620BD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F66CA0E-06B8-4FD0-8109-FE1CD620BD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F66CA0E-06B8-4FD0-8109-FE1CD620BD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F66CA0E-06B8-4FD0-8109-FE1CD620BD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359396EF-104E-4658-9767-38B0F4F45671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359396EF-104E-4658-9767-38B0F4F45671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359396EF-104E-4658-9767-38B0F4F45671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359396EF-104E-4658-9767-38B0F4F45671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
