@@ -7,22 +7,22 @@
             Instructions();
             String name = Console.ReadLine();
 
-            int room = 1;
+            int location = 1;
 
             do
             {
-                switch (room)
+                switch (location)
                 {
                     case 1:
-                        room = FirstRoom(name);
+                        location = FirstRoom(name);
                         break;
                     case 2:
-                        room = SecondRoom(name, room);
+                        location = SecondRoom(name, location);
                         break;
                 }
-            } while (room != 3);
+            } while (location != 3);
 
-            room = ThirdRoom(name);
+            location = ThirdRoom(name);
         }
         static void Instructions()
         {
