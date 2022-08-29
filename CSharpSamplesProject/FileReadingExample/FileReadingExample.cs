@@ -8,7 +8,6 @@ namespace FileReadingExample
         static void Main(string[] args)
         {
             Console.WriteLine("Reading Files");
-            String folder = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             try
             {
                 StreamReader reader = new StreamReader("../../../InputTextFile.txt");

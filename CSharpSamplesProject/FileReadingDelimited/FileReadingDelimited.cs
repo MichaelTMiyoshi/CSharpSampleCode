@@ -8,7 +8,6 @@ namespace FileReadingDelimited
         static void Main(string[] args)
         {
             Console.WriteLine("Delimited files");
-            String folder = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             try
             {
                 StreamReader reader = new StreamReader("../../../CommaDelimited.txt");
