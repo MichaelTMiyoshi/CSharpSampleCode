@@ -1,0 +1,5 @@
+Here is some text.
+There are many spaces.
+A	few	tabs.
+There are also some digits: 0123456789
+Oh.  And there are also newlines.

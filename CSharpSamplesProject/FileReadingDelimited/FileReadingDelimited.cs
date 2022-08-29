@@ -11,17 +11,12 @@ namespace FileReadingDelimited
             String folder = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             try
             {
-                StreamReader reader = new StreamReader($"{folder}" +
-                    $"{Path.DirectorySeparatorChar}" +
-                    $"Documents{Path.DirectorySeparatorChar}CommaDelimited.txt");
+                StreamReader reader = new StreamReader("../../../CommaDelimited.txt");
 
-                // the file is located in the directory:
-                // Documents/Documents  (on a Windows machine)
-                // Documents            (on a Mac)
+                // the files are located in the same directory
+                // as the .cs file (on both Windows machines and Macs)
 
-                StreamWriter writer = new StreamWriter($"{folder}" +
-                    $"{Path.DirectorySeparatorChar}" +
-                    $"Documents{Path.DirectorySeparatorChar}TabDelimited.txt");
+                StreamWriter writer = new StreamWriter("../../../TabDelimited.txt");
 
                 while (!reader.EndOfStream)
                 {
@@ -36,13 +31,9 @@ namespace FileReadingDelimited
                 writer.Close();
                 reader.Close();
             }
-            catch (System.IO.FileNotFoundException)
+            catch (Exception e)
             {
-                Console.WriteLine("FileNotFoundException");
-            }
-            catch
-            {
-                Console.WriteLine("Exception");
+                Console.WriteLine(e);
             }
         }
     }
